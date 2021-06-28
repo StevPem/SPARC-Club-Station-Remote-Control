@@ -1,6 +1,6 @@
 # General requirements
 
-The remote control system is intended initially to allow access to the club&#39;s IC7300 HF transceiver by
+The remote control system is intended initially to allow access to the club's IC7300 HF transceiver by
 club members and other approved users. Other transceivers and other pieces of equipment can be
 progressively added. Ideally the first implementation should be complete by the end of July 2021.
 

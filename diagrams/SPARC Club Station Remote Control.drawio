@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-28T14:04:42.246Z" agent="5.0 (X11)" etag="QzLEOrCwXA8r9qrQjMTS" version="14.8.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-28T14:07:54.761Z" agent="5.0 (X11)" etag="s_pDJGp3JRIqNSsDtSqL" version="14.8.1" type="github" pages="2">
   <diagram id="jS-cDS1oIRtbwLw3VddK" name="Internet VPN access">
     <mxGraphModel dx="1366" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -322,6 +322,18 @@
         <mxCell id="ltifgHDbydr0pbYG_te0-38" value="DNS" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;dashed=1;rotation=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4Cmd69NsPVWSAvO28QD8-50">
           <mxGeometry x="136.12" y="32" width="110" height="58" as="geometry" />
         </mxCell>
+        <mxCell id="ltifgHDbydr0pbYG_te0-62" value="" style="endArrow=classic;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;strokeColor=#009900;" edge="1" parent="4Cmd69NsPVWSAvO28QD8-50" source="5Iyu8BX9_2CVJd1CaVNz-34" target="33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="201.25" y="452" as="sourcePoint" />
+            <mxPoint x="201.25" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltifgHDbydr0pbYG_te0-63" value="" style="endArrow=classic;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeColor=#009900;" edge="1" parent="4Cmd69NsPVWSAvO28QD8-50" source="4Cmd69NsPVWSAvO28QD8-63" target="5Iyu8BX9_2CVJd1CaVNz-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="228.75" y="452" as="sourcePoint" />
+            <mxPoint x="228.75" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4Cmd69NsPVWSAvO28QD8-56" value="Remote Power&#xa;Switch" style="fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="950" y="600" width="110" height="50" as="geometry" />
         </mxCell>
@@ -570,6 +582,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="590" y="580" as="sourcePoint" />
             <mxPoint x="610" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltifgHDbydr0pbYG_te0-65" value="" style="endArrow=classic;html=1;exitX=0.807;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#009900;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="597.02" y="548" as="sourcePoint" />
+            <mxPoint x="617" y="583" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

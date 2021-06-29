@@ -7,7 +7,6 @@ It aims to record the overall intent, architectural decisions, design details, a
 This is also a bit of an experiment in agile methods and how they can be applied to solution architecture.
 
 The current architectural overview looks something like this:
-
 ![Remote control diagram](https://github.com/StevPem/SPARC-Club-Station-Remote-Control/blob/main/diagrams/SPARC%20Club%20Station%20Remote%20Control-Component%20model.png)
 
 Diagramming tool: diagrams.net

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-29T02:21:29.395Z" agent="5.0 (X11)" etag="qDJyACtT57Dlmqnyx9yz" version="14.8.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-29T02:24:56.597Z" agent="5.0 (X11)" etag="iDNSwDxxfcmK4_rLNL-A" version="14.8.2" type="github" pages="2">
   <diagram id="jS-cDS1oIRtbwLw3VddK" name="Internet VPN access">
     <mxGraphModel dx="1366" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -237,9 +237,6 @@
         <mxCell id="ltifgHDbydr0pbYG_te0-55" value="VH&#xa;Client" style="fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" parent="2" vertex="1">
           <mxGeometry x="95.5" y="388" width="44.5" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="LdQ5FyRylXNJH5AN5xei-35" value="&lt;div align=&quot;center&quot;&gt;Existing EchoLink System&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;" parent="2" vertex="1">
-          <mxGeometry x="115.5" y="544" width="94.5" height="38" as="geometry" />
-        </mxCell>
         <mxCell id="3" value="Rig Control" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
           <mxGeometry x="725" y="128" width="280" height="742" as="geometry" />
         </mxCell>
@@ -307,6 +304,22 @@
         <mxCell id="LdQ5FyRylXNJH5AN5xei-45" value="Antenna&#xa;Switch" style="fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" parent="4" vertex="1">
           <mxGeometry x="95.5" y="422" width="110" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="XZyDhzpHbwWmV5x2Ouhx-38" value="VK3RSP&lt;br&gt;146.675" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rotation=0;fillColor=#fad9d5;strokeColor=#ae4132;dashed=1;" vertex="1" parent="4">
+          <mxGeometry x="164.5" y="672" width="110" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="XZyDhzpHbwWmV5x2Ouhx-39" value="" style="endArrow=classic;html=1;entryX=0.082;entryY=0.603;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="4" source="Jatx1Sg0KDeG-h9sxKiy-34" target="XZyDhzpHbwWmV5x2Ouhx-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-74" y="617" as="sourcePoint" />
+            <mxPoint x="105.5" y="647" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="123.5" y="707" />
+              <mxPoint x="145.5" y="707" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XZyDhzpHbwWmV5x2Ouhx-40" value="2M RF" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="4">
+          <mxGeometry x="75.5" y="698" width="54.5" height="28" as="geometry" />
+        </mxCell>
         <mxCell id="4Cmd69NsPVWSAvO28QD8-41" value="Mobile user" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="260" width="30" height="60" as="geometry" />
         </mxCell>
@@ -366,6 +379,9 @@
         </mxCell>
         <mxCell id="XZyDhzpHbwWmV5x2Ouhx-34" value="&lt;div&gt;IRLP&lt;/div&gt;&lt;div&gt;Web service&lt;br&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rotation=0;fillColor=#cdeb8b;strokeColor=#36393d;dashed=1;" vertex="1" parent="4Cmd69NsPVWSAvO28QD8-50">
           <mxGeometry x="100" y="643" width="110" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="LdQ5FyRylXNJH5AN5xei-35" value="&lt;div align=&quot;center&quot;&gt;Existing EchoLink / IRLP&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;" parent="4Cmd69NsPVWSAvO28QD8-50" vertex="1">
+          <mxGeometry x="13.110000000000014" y="630" width="94.5" height="38" as="geometry" />
         </mxCell>
         <mxCell id="4Cmd69NsPVWSAvO28QD8-56" value="Remote Power&#xa;Switch" style="fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="950" y="600" width="110" height="50" as="geometry" />

@@ -1,0 +1,42 @@
+title SPARC Remote Operation Club Station (ROCS)
+
+participant PC/Phone
+participant NBN Router
+participant SPARC DMZ
+participant Router
+participant PiVPN
+participant RigPi Web
+participant Mumble VOIP
+participant VNC Server
+participant VH Server
+participant IC-7300
+
+rbox over PC/Phone,NBN Router:Internet
+rbox over SPARC DMZ,NBN Router:Darren's QTH
+rbox over Router,IC-7300:SPARC Clubroom
+
+PC/Phone->PC/Phone
+note over VH Server,PiVPN:Raspberry Pi
+==1. Establish VPN Session==
+abox over PC/Phone:VPN Client
+PC/Phone->PiVPN:Establish VPN Session
+==2. Analogue Modes (SSB, etc)==
+abox over PC/Phone:Web Browser\n(over VPN)
+PC/Phone->RigPi Web:RigPi Web UI
+RigPi Web<->IC-7300:CAT Control (USB)
+PC/Phone->Mumble VOIP:RigPi Audio
+Mumble VOIP<->IC-7300:Audio IO (USB)
+==3A. Digital Modes (FT8, etc)==
+abox over PC/Phone:VNC Client\n(over VPN)
+PC/Phone->VNC Server:VNC Remote Desktop
+
+VNC Server->WSJT-X (etc)
+abox over VNC Server:Digi Apps
+WSJT-X (etc)->IC-7300
+VNC Server->IC-7300:CAT/Audio (USB)
+==3B. Digital Modes (alternative method)==
+abox over PC/Phone:VH Client\n(over VPN)
+PC/Phone->VH Server:Access remote USB Devices (CAT/Audio)
+VH Server->IC-7300:(USB)
+abox over PC/Phone:Digi Apps
+PC/Phone->PC/Phone:Local Digi Mode\nOperation

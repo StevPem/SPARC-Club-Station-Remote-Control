@@ -1,1 +1,104 @@
-<mxfile host="app.diagrams.net" modified="2021-10-05T05:17:52.416Z" agent="5.0 (X11)" version="14.8.2" etag="pBDSGUTU5_JpLBcvkN-f" type="github"><diagram id="YqbmYgbHA-egphLIvuRI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-05T09:17:26.464Z" agent="5.0 (X11)" etag="I5e0aqW84VImQo7QHZtb" version="14.8.2" type="github">
+  <diagram id="YqbmYgbHA-egphLIvuRI" name="Page-1">
+    <mxGraphModel dx="1366" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="60" width="200" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="60" width="200" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="60" width="260" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-12" value="&lt;div&gt;Public&lt;/div&gt;&lt;div&gt;Internet&lt;br&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="345" y="240" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-11" value="&lt;div&gt;NBN&lt;/div&gt;&lt;div&gt;Router&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="580" y="350" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-15" value="&lt;div&gt;Raspberry Pi&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="550" y="110" width="210" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-18" value="Mobile&lt;div&gt;Device&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="120" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-16" value="VPN Tunnel" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=7;direction=north;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="240" y="357.5" width="350" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-19" value="&lt;div&gt;Web&lt;/div&gt;&lt;div&gt;Browser&lt;br&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="150" y="250" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-20" value="&lt;div&gt;WireGuard&lt;/div&gt;&lt;div&gt;App&lt;br&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="150" y="365" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-21" value="RigPi&lt;br&gt;Web Server" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="562.5" y="150" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-22" value="&lt;div&gt;Mumble&lt;br&gt;Server&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="562.5" y="190" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-23" value="Mumble Client" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="150" y="280" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-24" value="&lt;div&gt;VNC&lt;/div&gt;&lt;div&gt;Client&lt;br&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-25" value="&lt;div&gt;VNC&lt;/div&gt;&lt;div&gt;Server&lt;br&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="662.5" y="190" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-26" value="&lt;div&gt;WSJT-X&lt;/div&gt;&lt;div&gt;Etc.&lt;br&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="662.5" y="150" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-27" value="&lt;div&gt;WireGuard&lt;/div&gt;&lt;div&gt;Server&lt;br&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="562.5" y="240" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-17" value="&lt;div align=&quot;center&quot;&gt;VPN&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;Tunnel&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=7;direction=east;align=center;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="645" y="280" width="25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-28" value="1. Install PiVPN on RasPi&lt;br&gt;(create profile)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="230" width="87.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-29" value="2. Port forward 51280 UDP to RigPi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="400" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-30" value="3. Install WireGuard client and load profile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="420" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-31" value="4. Connect to VPN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="330" width="81" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-32" value="5A. Run Mumble client (for audio) and Browser for RigPi GUI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-33" value="5B. Run VNC to access Digi Apps on RigPi remote desktop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="60" width="660" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-5" value="Outside world" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="155" y="70" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-6" value="Internet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="70" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-7" value="Home Network" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="70" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-37" value="" style="curved=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_uaW3ZvnfhvD2LrwsyKz-28" target="_uaW3ZvnfhvD2LrwsyKz-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="430" as="sourcePoint" />
+            <mxPoint x="450" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="490" />
+              <mxPoint x="210" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

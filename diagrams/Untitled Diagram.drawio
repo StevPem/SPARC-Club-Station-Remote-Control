@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-05T09:18:29.207Z" agent="5.0 (X11)" etag="KcW0DnM04bvk4baCPdyj" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-05T09:21:52.947Z" agent="5.0 (X11)" etag="XlBQF0aRYra5cOJT3s1l" version="14.8.2" type="github">
   <diagram id="YqbmYgbHA-egphLIvuRI" name="Page-1">
     <mxGraphModel dx="1366" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="_uaW3ZvnfhvD2LrwsyKz-11" value="&lt;div&gt;NBN&lt;/div&gt;&lt;div&gt;Router&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="580" y="350" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-15" value="&lt;div&gt;Raspberry Pi&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-15" value="&lt;div&gt;Raspberry Pi&lt;/div&gt;&lt;div&gt;(local IP: 1.2.3.4)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="550" y="110" width="210" height="190" as="geometry" />
         </mxCell>
         <mxCell id="_uaW3ZvnfhvD2LrwsyKz-18" value="Mobile&lt;div&gt;Device&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
@@ -100,6 +100,19 @@
         </mxCell>
         <mxCell id="_uaW3ZvnfhvD2LrwsyKz-38" value="1B. Send profile to remote user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="460" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-39" value="" style="curved=1;endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_uaW3ZvnfhvD2LrwsyKz-19" target="_uaW3ZvnfhvD2LrwsyKz-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="708.75" y="290" as="sourcePoint" />
+            <mxPoint x="220" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-10" y="370" />
+              <mxPoint x="860" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-40" value="6. Connect to &quot;local&quot; IP address (1.2.3.4)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="220" width="101" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

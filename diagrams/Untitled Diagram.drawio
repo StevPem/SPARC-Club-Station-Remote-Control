@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-05T09:17:26.464Z" agent="5.0 (X11)" etag="I5e0aqW84VImQo7QHZtb" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-05T09:18:29.207Z" agent="5.0 (X11)" etag="KcW0DnM04bvk4baCPdyj" version="14.8.2" type="github">
   <diagram id="YqbmYgbHA-egphLIvuRI" name="Page-1">
     <mxGraphModel dx="1366" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -58,8 +58,8 @@
         <mxCell id="_uaW3ZvnfhvD2LrwsyKz-17" value="&lt;div align=&quot;center&quot;&gt;VPN&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;Tunnel&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=7;direction=east;align=center;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
           <mxGeometry x="645" y="280" width="25" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-28" value="1. Install PiVPN on RasPi&lt;br&gt;(create profile)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="660" y="230" width="87.5" height="50" as="geometry" />
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-28" value="1A. Install PiVPN on RasPi&lt;br&gt;(create profile)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="230" width="97.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_uaW3ZvnfhvD2LrwsyKz-29" value="2. Port forward 51280 UDP to RigPi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="400" width="110" height="20" as="geometry" />
@@ -97,6 +97,9 @@
               <mxPoint x="210" y="500" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_uaW3ZvnfhvD2LrwsyKz-38" value="1B. Send profile to remote user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="460" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

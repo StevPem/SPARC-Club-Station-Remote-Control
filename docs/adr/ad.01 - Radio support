@@ -1,0 +1,25 @@
+0001. Radio support
+Date: 2021-01-01
+
+Status: Accepted
+
+Question:
+Which model of transceiver should the remote control system support?
+
+Options:
+#1 - Icom vendor range (e.g. IC7300)
+  * Vendor provided support for Icom radios only.
+  * High functionality, specific model features supported.
+  * Only supports Icom transceivers.
+
+#2 - Yaesu vendor range (e.g. FT-991A)
+  * Vendor provided support for Yaesu radios only.
+  * High functionality, specific model features supported.
+  * Only supports Yaesu transceivers.
+
+#3 - HAMlib support
+  * Abstraction layer providing support for many (100's) of models and vendors.
+  * Medium functioanlity, most common features supported.
+  * Not limited to a single vendor's model range.
+
+Decision: Option #3
